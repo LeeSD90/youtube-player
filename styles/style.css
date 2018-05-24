@@ -101,7 +101,23 @@ header {
 }
 
 #description{
-    background-color: gold;
+    font-size: 14px;
+}
+
+#description p{
+    margin: 10px 0;
+    width: 60%;
+    font-weight: 400;
+}
+
+#description h5{
+    font-weight: normal;
+    color: rgb(121,121,121);
+}
+
+.more{
+    color: rgb(121,121,121);
+    text-transform: uppercase;
 }
 
 #comments{
