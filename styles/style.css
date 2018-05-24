@@ -82,7 +82,9 @@ header {
 /* Content */
 
 #container{
+    display:flex;
     min-height: 900px;
+    min-width: 1000px;
     width: 50%;
     padding: 10px 15px;
     margin: auto;
@@ -90,10 +92,6 @@ header {
 
 #video{
     float: left;
-}
-
-#player{
-    background-color: blue;
 }
 
 #description{
@@ -111,7 +109,7 @@ header {
 #up-next{
     display: flex;
     flex-wrap: wrap;
-    float: right;
+    margin-left: 20px;
     width: 30%;
 }
 
@@ -132,13 +130,11 @@ header {
 
 #previews{
     display: block;
-    margin-top: 15px;
     width: 100%;
 }
 
 .preview{
     display: flex;
-    flex-wrap: wrap;
     width: 100%;
     margin-top: 15px;
     margin-bottom: 15px;
